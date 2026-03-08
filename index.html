@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title> Greenwich , NJ — Tidal Flooding Dashboard</title>
+  <title> South Dennis , NJ — Tidal Flooding Dashboard</title>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <!-- Leaflet (map) -->
@@ -921,8 +921,8 @@ a.brand *{
       </div>
 
       <div class="brandTitle">
-        <div class="kicker">USGS 01412150 ·  Greenwich , NJ</div>
-        <div class="name"> Greenwich  Tidal  Dashboard</div>
+        <div class="kicker">USGS 01412150 ·  South Dennis , NJ</div>
+        <div class="name"> South Dennis  Tidal  Dashboard</div>
       </div>
     </a>
 
@@ -1431,7 +1431,7 @@ const TOP_TEN_MLLW = [
     /* =========================
 MAP — Leaflet gauge map
 ========================= */
-const DEFAULT_GAUGE_ID = "01413038"; //  Greenwich  USGS
+const DEFAULT_GAUGE_ID = "01411435"; //  South Dennis  USGS
 const DEFAULT_GAUGE_ZOOM = 12;       // adjust if you want closer (13 = tighter)
 // Edit these whenever you want (lat/lon + label + link)
 const GAUGES = [
@@ -1524,7 +1524,7 @@ function ensureGaugeMap(){
     bounds.push([g.lat, g.lon]);
   }
 
-// Default view =  Greenwich  gauge
+// Default view =  South Dennis  gauge
 const def = GAUGES.find(g => String(g.id) === DEFAULT_GAUGE_ID);
 
 if(def){
