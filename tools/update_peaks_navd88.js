@@ -27,7 +27,7 @@ const path = require("path");
 // -------------------------
 const CACHE_PATH = path.join(__dirname, "..", "data", "peaks_navd88.json");
 
-const SITE = "01407600";
+const SITE = "01411435";
 const PARAM = "72279";
 
 // NOAA tide-clock (predicted highs/lows) — used ONLY for crest times
@@ -280,7 +280,7 @@ async function main() {
   if (!THRESH_NAVD88) {
     die(
       "Missing NAVD88 thresholds. Add thresholdsNAVD88 to data/peaks_navd88.json, e.g.\n" +
-      '  "thresholdsNAVD88": {"minorLow": 4.19, "moderateLow": 5.19, "majorLow": 6.19}\n'
+      '  "thresholdsNAVD88": {"minorLow": 3.55, "moderateLow": 4.55, "majorLow": 5.55}\n'
     );
   }
 
