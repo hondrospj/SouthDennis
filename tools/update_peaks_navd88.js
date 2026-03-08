@@ -31,7 +31,7 @@ const SITE = "01411435";
 const PARAM = "72279";
 
 // NOAA tide-clock (predicted highs/lows) — used ONLY for crest times
-const NOAA_STATION = "8531804"; // , Maurice River, NJ (as in your dashboard)
+const NOAA_STATION = "8536687"; // , Maurice River, NJ (as in your dashboard)
 
 // Keep this in cache for transparency; we still keep your 5-hour constant in JSON,
 // but we are no longer using declustering for cache building under this method.
